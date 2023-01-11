@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Aprendiendo jQuery5</title>
+
+	
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+	<script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+	
+	<!--Main CSS-->
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+	<!--Custom CSS-->
+	<link id="custom" rel="stylesheet" type="text/css" href="css/green.css" />
+
+	<!--Main JS-->
+	<script type="text/javascript" src="js/main.js"></script>
+
+	</head>
+	
+<body>
+<!--Botonera cambiar color theme-->
+<div class="change_theme">
+
+	<div class="to green"></div>
+	<div class="to red"></div>
+	<div class="to blue"></div>	
+
+</div>
+
+<!-- Botonera subir-->
+<div class="subir" title="Pulsame para volver arriba">></div>
+
+<div id="global" class="global">
+
+<!--Cabecera-->
+<header>
+		
+		<div id="logo" class="logo">
+			<h1>Proyecto JS</h1>
+		</div>
+
+		<navbar id="menu" class="menu">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="reloj.html">Reloj</a></li>
+				<li><a href="about.html">Sobre mi</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+
+			</ul>
+		</navbar>
+	</header>	
+
+<!--Slider-->
+<div class="galeria">
+  <div><img src="img/hojas.jpg" title="Hojas frescas en primavera"></div>
+  <div><img src="img/rojo.jpg" title="Rojo arboleda otoñal "></div>
+  <div><img src="img/cielo.jpg" title="Cielo azul por la mañana"></div>
+</div>
+
+
+	
+
+	<!--Contenido-->
+
+	<section id="content">
+
+		<h2>Prueba cambio titulo 5</h2>
+		
+		<div id="posts" class="posts">
+			<!--Cargar post desde json post-->
+		</div>
+		<aside id="sidebar" class="sidebar">
+			<div id="about">
+				<article class="post">
+				<h3>¿Quién soy?</h3>
+				<img src="img/caracol.jpg"/>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu facilisis dolor. Integer nulla elit, faucibus non ligula non, luctus ornare arcu.</p>	
+				</article>
+			</div>
+
+			<div class="formulario" id="formulario_login">
+			<h3>Identifícate</h3>
+			<form>
+			<p><label for="name">Nombre</label>	
+			<input name="name" type="text" placeholder="Escribe tu nombre" /></p>
+
+			<p><label for="email">Email</label>	
+			<input name="email" type="email" placeholder="Escribe tu email"/></p>
+
+			<p><label for="password">Password</label>	
+			<input name="password" type="password" placeholder="Escribe tu contraseña"/></p>
+
+			<input type="submit" value="Indentificarme"/>		
+
+			</form>	
+
+			</div>
+		</aside>
+
+	</section>
+
+</div>
+
+<!--Pie-->
+
+<footer>
+	Este es el pie de la página &copy; <span class="year"></span>
+</footer>
+
+
+
+
+</body>
+
+
+</html>
